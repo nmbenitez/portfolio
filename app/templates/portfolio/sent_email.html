@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="hero">
+    <div class="hero-content">
+        <div class="left">
+            <h1 >{% block title %} Message sent! {% endblock %}</h1>
+            <p>I will be contacting you shortly so that we can start working together!</p>
+        </div>
+        <div class="right padded ">
+            <img id="image"  src="{{ url_for('static', filename='mail1.png' )}}" width=600px />       
+        </div>
+    </div>
+</div>
+
+<meta http-equiv="refresh" content="5;{{ url_for('portfolio.index')}}" />
+{% endblock%}
+

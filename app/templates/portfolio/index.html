@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block title %}
+NB
+{% endblock %}
+
+{% block content %}
+<div class="hero">
+    <div class="hero-content">
+        <div class="left">
+            <h1>Hi! My name's</h1>
+            <h1>Nahuel Benitez</h1>
+            <p>
+                I develop dinamic apps in Python using relational databases. <br>With a knowledge in HTML - CSS - FLASK.
+            </p>
+            <a href="#contacto" class="btn">Contact me</a>
+        </div>
+        <div class="right">
+            <img src="{{ url_for('static', filename='ilusinf.png' )}}" width=600px />
+        </div>
+    </div>
+</div>
+
+{% include 'portfolio/section-first.html' %}
+{% include 'portfolio/section-second.html' %}
+{% include 'portfolio/section-third.html' %}
+
+
+{% endblock %}

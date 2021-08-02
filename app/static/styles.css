@@ -1,0 +1,312 @@
+
+/* - General styles - */
+
+html{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    
+}
+body {
+    background-color: #efefef;
+    margin: 0;
+    color: #cf0021;
+}
+
+a {
+    transition: color 0.3s ease;
+    font-size: 35px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #cf0021;
+    text-decoration: none;
+    font-weight: 700;
+    
+}
+
+a:hover {
+    color: #03ad91;
+    text-shadow: 1px 1px 2px black;
+}
+
+/* - Header - */
+
+html body header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 3px 0 5px #aaa;
+    padding: 15px 80px;
+    position: relative;
+    z-index: 2;
+}
+
+header .logo {
+    font-size: 35px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    transition:all 1s ease;
+}
+
+/* - Header Animation - */
+
+span {
+    transition: all 0.4s ease;
+}
+
+span:after {
+    opacity: 0;
+    transition: all 0.4s ease;
+    content: " - Software Developer";
+}
+span:hover:after {
+    opacity: 1;
+    font-size: 38px;
+    color:#00CFAE;
+    content: " - Software Developer";
+    text-shadow: 1px 1px 2px black;
+}
+
+span:hover {
+    font-size: 38px;
+    color:#00CFAE;
+    text-shadow: 1px 1px 2px black;
+    cursor: pointer;
+}
+
+
+/* - Header nav - */
+
+html body nav ul{
+    list-style-type: none;
+}
+
+html body nav ul li{
+    display: inline-block;
+}
+
+html body nav ul li a{
+    padding: 0 15px;
+}
+
+/* - Portfolio Hero - */
+
+.hero {
+    position: relative;
+    display: flex;
+    z-index: 1;
+    background-color: #fff;
+    padding: 20px 50px;
+    justify-content: center;
+    height: 712px;
+}
+
+.hero .hero-content {
+   width: 1200px;
+   display: flex;
+   flex-direction: row;
+}
+
+.hero h1 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 90px;
+}
+
+.hero p {
+    font-family: 'Rufina', sans-serif;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+.left {
+    width: 600px;
+    align-self: center;
+}
+
+/* - General styles - */
+
+.btn {
+    background-color: #00CFAE;
+    color: #fff;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 25px;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 15px;
+    transition: all 0.4s ease;
+}
+
+.btn1 {
+    background-color: #00CFAE;
+    color: #fff;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 25px;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 15px;
+    transition: all 0.4s ease;
+}
+
+.btn:hover{
+    text-shadow: 1px 1px 2px black;
+}
+
+.btn1:hover{
+    text-shadow: 1px 1px 2px black;
+    cursor: pointer;
+}
+
+a.btn {
+    color:#fff;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+/* - Content - */
+.content {
+    width: 1200px;
+    
+}
+
+.content h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.content h3 {
+    font-size: 40px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.content p {
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    font-size: 20px;
+}
+
+.right{
+    font-size: 20px;
+}
+
+.aqua {
+    color:#00cc81;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.4);
+}
+
+.padded {
+    padding: 20px 30px;
+}
+
+.vert-pad {
+    padding: 20px 0;
+}
+/* - Cards - */
+.card {
+    background-color: #fff;
+    border:solid 1px #ddd;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px #ddd;
+    padding: 10px 30px;
+    padding-top: 0;
+    transition: all 0.4s ease;
+    margin-top: 0;
+}
+
+.card:hover {
+    background-color: #fff;
+    border:solid 1px #ddd;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px #ddd;
+    padding: 10px 30px;
+    padding-top: 0;
+    scale: 1.1;
+}
+
+.third {
+    width: 360px;
+    margin: 20px;
+    margin-top: 0;
+}
+
+/* - Contact form - */
+
+.contact-form input {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+    border: none;
+    height: 30px;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px #ddd;
+    width: calc(100% - 20px);
+}
+
+.contact-form textarea {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+    border: none;
+    height: 100px;
+    padding: 15px 10px;
+    width: calc(100% - 20px);
+    border-radius: 5px;
+    resize: none;
+    box-shadow: 0 1px 2px #ddd;
+    margin-bottom: 15px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+/* - Foooter - */
+
+.footer {
+    padding: 80px 0 0 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.social-links {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.social-links a {
+    margin: 0 10px;
+}
+
+.social {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.made-with {
+    padding: 0 30px;
+    color: #555;
+}
+
+
+
+
+
