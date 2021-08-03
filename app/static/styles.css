@@ -3,7 +3,6 @@
 
 html{
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    
 }
 body {
     background-color: #efefef;
@@ -126,6 +125,29 @@ html body nav ul li a{
     align-self: center;
 }
 
+@media screen and (max-width: 720px){
+    .left{
+        width: 500px;
+        align-self: center;
+    }
+    .hero .right{
+        display: none;
+    }
+
+    .content .row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content .row .right{
+        padding-left: 120px;
+    }
+}
+
+.right {
+    width: 600px;
+    align-self: center;
+}
 /* - General styles - */
 
 .btn {
@@ -205,6 +227,8 @@ a.btn {
 
 .right{
     font-size: 20px;
+    width: 600px;
+    align-self: center;
 }
 
 .aqua {
