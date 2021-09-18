@@ -11,10 +11,7 @@ export default function Resume(){
           <div className="resume-body" >
               <h2>My resume: </h2>
               <Button variant="danger" className="btn-link" onClick={() => setModalShow(true)}> RESUME </Button>
-              <MyVerticallyCenteredModal
-        show={modalShow}
-        onHide={() => setModalShow(false)}
-      />
+              <MyVerticallyCenteredModal show={modalShow} onHide={() => setModalShow(false)} />
             </div>
       </div>
     );

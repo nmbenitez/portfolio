@@ -5,6 +5,8 @@ import Projects from "./components/Projects";
 import Resume from './components/Resume';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 function App() {
   
 
@@ -15,6 +17,7 @@ function App() {
       <Projects />
       <Resume />
       <Contact />
+      <ToastContainer />
       <Footer />
     </div>
   );

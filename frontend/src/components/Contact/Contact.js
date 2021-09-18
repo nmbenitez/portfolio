@@ -1,14 +1,17 @@
 import React from 'react'
-import { Row, Col, Button } from 'react-bootstrap';
+import { Row, Col} from 'react-bootstrap';
+import { ToastContainer, toast } from 'react-toastify';
 import "./Contact.scss";
 
 export default function Contact(){
+    //const success = () => toast.success("Wow so easy!");
+    
     return(
-        <div className="contact">
+        <div className="contact" id="contact">
             <Row>
                 <Col>
                 <h1>
-                    That's it! Let's work together :)
+                    That's it! Let's work together!
                 </h1>
                 <p>I will give my best to learn and provide value.</p>
                 </Col>
@@ -17,7 +20,7 @@ export default function Contact(){
                     <input name='name' placeholder="Name..." required />
                     <input name='email' placeholder="Email..." required type="email" />
                     <textarea placeholder="Message" name="message" required minlength="10"></textarea>
-                    <button>Send</button>
+                    <button >Send</button>
                 </form>
                 </Col>
             </Row>

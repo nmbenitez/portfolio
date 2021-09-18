@@ -76,4 +76,58 @@
       text-shadow: 1px 1px 2px black;
     }
   }
+  .btn {
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+    &-link {
+      font-family: "Yanone Kaffeesatz", sans-serif;
+      font-size: 20px;
+      height: 40px;
+      width: 80px;
+      color: white;
+      text-decoration: none;
+      margin: 0px 0px 0px 10px;
+    }
+    &-git {
+      font-family: "Yanone Kaffeesatz", sans-serif;
+      font-size: 20px;
+      height: 40px;
+      width: 80px;
+      left: 100px;
+      color: white;
+      text-decoration: none;
+      margin: 0px 0px 0px 10px;
+    }
+    &-github {
+      padding: 0;
+      margin: 0;
+      height: 30px;
+      width: 30px;
+    }
+    &:hover {
+      color: white;
+      text-shadow: 1px 1px 2px black;
+    }
+  }
+
+  @media screen and (max-width: 720px) {
+    .pCard {
+      width: 300px;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .col {
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      padding: 0;
+      margin: 0;
+    }
+    .pCard {
+      width: 280px;
+    }
+  }
 }

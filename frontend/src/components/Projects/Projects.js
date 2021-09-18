@@ -20,7 +20,7 @@ export default function Projects(){
                                     All this web page was made by me!
                                 </Card.Text> 
                                 <Button variant="primary" disabled className="btn-link">Link</Button> 
-                                <Button variant="primary" className="btn-git"> GitHub</Button>
+                                <Button variant="primary" href="https://github.com/nmbenitez/portfolio" target="_blank" className="btn-git"> GitHub</Button>
                             </Card.Body>
                         </Card>
                     </Col>

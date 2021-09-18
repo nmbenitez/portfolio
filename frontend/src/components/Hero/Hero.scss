@@ -16,7 +16,6 @@
     margin-bottom: 0;
     font-size: 90px;
   }
-
   .hero-car {
     margin-top: 90px;
     border-top: solid 8px #ffc107;
@@ -103,8 +102,24 @@
     .col {
       flex: none;
     }
+    .hero-col-right {
+      margin-left: 15px;
+    }
     .hero-car {
-      display: none;
+      padding: 0;
+      .hero-img {
+        width: 360px;
+        height: 350px;
+      }
+      h1 {
+        font-size: 50px;
+        padding-top: 50px;
+      }
+      h4 {
+        padding: 0;
+        font-size: 15px;
+      }
+      width: 360px;
     }
   }
 }

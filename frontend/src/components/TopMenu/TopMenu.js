@@ -26,9 +26,9 @@ function BrandNav(){
 function MenuNav(){
     return(
         <Nav className="mr-auto" variant="tabs">
-            <Nav.Link href="/index.html">Home</Nav.Link>
-            <Nav.Link href="#projects">Projects</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav.Link className="nav-lnk" href="#home">Home</Nav.Link>
+            <Nav.Link className="nav-lnk" href="#projects">Projects</Nav.Link>
+            <Nav.Link className="nav-lnk" href="#contact">Contact</Nav.Link>
         </Nav>
     );
 }

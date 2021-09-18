@@ -9,9 +9,9 @@ export default function Hero(){
                 <Row>
                     <Col className="hero-col-left">
                         <h1> Hello there! </h1> 
-                        <h2>I'm <Badge pill bg="primary">Nahuel Benítez</Badge>, web developer. </h2>
+                        <h2>I'm <Badge pill bg="primary" className="hero-title">Nahuel Benítez</Badge>, web developer. </h2>
                         <br />
-                        <Button variant="warning">Contact me! </Button>
+                        <Button variant="warning" href="#contact">Contact me! </Button>
                     </Col>
 
                     <Col className="hero-col-right">
@@ -44,7 +44,7 @@ and develop myself expanding my boundaries. </p>
     
     <Carousel.Caption className="hero-capt">
     <h1 className="hero-last" >Let's work together!</h1>
-      <Button variant="warning" className="hero-last-btn">Clicking here</Button>
+      <Button variant="warning" className="hero-last-btn" href="#contact">Clicking here</Button>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
