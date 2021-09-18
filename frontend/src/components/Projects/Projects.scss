@@ -1,0 +1,79 @@
+.projects {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: black;
+  color: #fff;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  //  font-family: "Comfortaa", cursive;
+  .row {
+    margin: 20px;
+  }
+  h2 {
+    margin: 0;
+  }
+
+  .pCard {
+    position: relative;
+    padding: 5px;
+    background-color: #fd9c0d;
+    border-radius: 10px;
+    height: 200px;
+    margin-bottom: 10px;
+    //    box-shadow: 0px 0px 18px 4px rgba(255, 255, 255, 0.29);
+    //    -webkit-box-shadow: 0px 0px 18px 4px rgba(255, 255, 255, 0.29);
+    //    -moz-box-shadow: 0px 0px 18px 4px rgba(255, 255, 255, 0.29);
+    transition: ease 0.25s;
+    .title {
+      text-shadow: 1px 1px 2px black;
+      font-weight: bold;
+      background-color: #fd9c0d;
+      margin: 0;
+      padding-left: 0;
+      padding-top: 0;
+    }
+    .body {
+      margin-top: 15px;
+      font-family: "Comfortaa", cursive;
+      font-size: 15px;
+    }
+
+    &:hover {
+      scale: 1.05;
+    }
+  }
+  .btn {
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+    &-link {
+      font-family: "Yanone Kaffeesatz", sans-serif;
+      font-size: 20px;
+      height: 40px;
+      width: 80px;
+      color: white;
+      text-decoration: none;
+      margin: 0px 0px 0px 10px;
+    }
+    &-git {
+      font-family: "Yanone Kaffeesatz", sans-serif;
+      font-size: 20px;
+      height: 40px;
+      width: 80px;
+      left: 100px;
+      color: white;
+      text-decoration: none;
+      margin: 0px 0px 0px 10px;
+    }
+    &-github {
+      padding: 0;
+      margin: 0;
+      height: 30px;
+      width: 30px;
+    }
+    &:hover {
+      color: white;
+      text-shadow: 1px 1px 2px black;
+    }
+  }
+}

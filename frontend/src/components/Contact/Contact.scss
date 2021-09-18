@@ -1,0 +1,87 @@
+.contact {
+  margin: 50px;
+  h1 {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    //  font-family: "Comfortaa", cursive;
+    font-size: 60px;
+    font-weight: 700;
+    padding-top: 90px;
+    padding-left: 60px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  p {
+    color: black;
+    font-family: "Comfortaa", cursive;
+    padding-left: 60px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+  }
+  @media screen and (max-width: 720px) {
+    h1 {
+      font-family: "Yanone Kaffeesatz", sans-serif;
+      //  font-family: "Comfortaa", cursive;
+      font-size: 60px;
+      font-weight: 700;
+      padding-top: 45px;
+      padding-left: 30px;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    p {
+      color: black;
+      font-family: "Comfortaa", cursive;
+      padding-left: 30px;
+      margin-top: 0;
+      margin-bottom: 0;
+      font-size: 20px;
+      padding-bottom: 45px;
+    }
+  }
+  &-form input {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    background-color: #d1d1d1;
+    font-size: 20px;
+    border: none;
+    height: 30px;
+    padding: 20px 10px 20px 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px #ddd;
+    width: calc(100% - 20px);
+  }
+  &-form textarea {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    background-color: #d1d1d1;
+    font-size: 20px;
+    border: none;
+    height: 100px;
+    padding: 15px 10px;
+    width: calc(100% - 20px);
+    border-radius: 5px;
+    resize: none;
+    box-shadow: 0 1px 2px #ddd;
+    margin-bottom: 15px;
+  }
+  button {
+    background-color: #0d6efd;
+    color: #fff;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 20px;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 15px;
+    transition: all 0.4s ease;
+    width: 98%;
+  }
+
+  button:hover {
+    text-shadow: 1px 1px 2px black;
+  }
+
+  button:hover {
+    text-shadow: 1px 1px 2px black;
+    cursor: pointer;
+  }
+}

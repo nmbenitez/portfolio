@@ -1,0 +1,32 @@
+.top-menu {
+  margin: 0;
+  padding: 0;
+  @media screen and (max-width: 720px) {
+    h1 {
+      display: none;
+    }
+  }
+  h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-weight: 700;
+  }
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+      width: 50px;
+      height: 50px;
+      margin-right: 20px;
+    }
+
+    h2 {
+      margin: 0px;
+      font-size: 22px;
+    }
+  }
+}
