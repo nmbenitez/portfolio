@@ -20,7 +20,7 @@ export default function Contact(){
                     <input name='name' placeholder="Name..." required />
                     <input name='email' placeholder="Email..." required type="email" />
                     <textarea placeholder="Message" name="message" required minlength="10"></textarea>
-                    <button >Send</button>
+                    <button >Send  <i class="fas fa-paper-plane"></i></button>
                 </form>
                 </Col>
             </Row>
