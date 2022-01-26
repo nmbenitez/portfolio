@@ -17,7 +17,6 @@ export default function TopMenu(){
 function BrandNav(){
     return(
         <Navbar.Brand>
-            {/* <Logo /> */}
             <h1> Nahuel Benítez </h1>
         </Navbar.Brand>
     );
